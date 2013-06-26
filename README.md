@@ -1,6 +1,8 @@
 Splunk JS SDK
 =============
 
+#### Don't use this. Since I wrote it, Splunk has improved their own [SDK for JavaScript](https://github.com/splunk/splunk-sdk-javascript) and it's now a much better option.
+
 * Requires jQuery 1.7+ * (really, just requires the jQuery deferred object)
 
 Splunk has decent support for returning JSON data but, as of 4.3, the Javascript SDK suxors. This just a start on a better JS SDK. To get this to work, I ended up turning off SSL from within the Splunk management console. Our Splunk installation is internal to our network so this didn't seem like a problem.
