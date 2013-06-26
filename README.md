@@ -5,7 +5,7 @@ Splunk JS SDK
 
 * Requires jQuery 1.7+ * (really, just requires the jQuery deferred object)
 
-Splunk has decent support for returning JSON data but, as of 4.3, the Javascript SDK suxors. This just a start on a better JS SDK. To get this to work, I ended up turning off SSL from within the Splunk management console. Our Splunk installation is internal to our network so this didn't seem like a problem.
+To get this to work, I ended up turning off SSL from within the Splunk management console. Our Splunk installation is internal to our network so this didn't seem like a problem.
 
     splunk.login - returns a Deferred promise object. You must wait until after login is complete to call search.
 
